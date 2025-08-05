@@ -2,7 +2,7 @@ package cellAutomata;
 
 import java.util.ArrayList;
 
-public class cellType {
+public class liverCell {
 
     //instance vars - private
 
@@ -13,7 +13,7 @@ public class cellType {
 
     //constructor
 
-    public cellType(int strength, int x, int y, int id) {
+    public liverCell(int strength, int x, int y, int id) {
         this.strength = strength;
         this.x = x;
         this.y = y;
@@ -22,7 +22,7 @@ public class cellType {
 
     //constructor with default setting
 
-    public cellType(){
+    public liverCell(){
         this(0,0,0,0);
     }
 
@@ -78,7 +78,7 @@ public class cellType {
 
     //method interactNeighbor
 
-    public void interactNeighbor(ArrayList<cellType> neighbors){
-        
+    public void interactNeighbor(ArrayList<liverCell> neighbors){
+
     }
 }
