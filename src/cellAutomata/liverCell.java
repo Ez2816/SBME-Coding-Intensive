@@ -2,6 +2,8 @@ package cellAutomata;
 
 import java.util.ArrayList;
 
+//this is just a set up of the class
+//no main function has been included but can be added to test functions
 public class liverCell {
 
     //instance vars - private
@@ -78,7 +80,7 @@ public class liverCell {
 
     //method interactNeighbor
 
-    public void interactNeighbor(ArrayList<liverCell> neighbors){
+    public void interactNeighbor(ArrayList<liverCellUpdated> neighbors){
 
     }
 }

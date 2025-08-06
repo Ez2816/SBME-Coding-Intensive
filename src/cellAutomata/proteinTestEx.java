@@ -20,4 +20,8 @@ public class proteinTestEx {
         return false;
 
     }
+
+    //main function to run
+    public static void main (String[] args){
+    }
 }

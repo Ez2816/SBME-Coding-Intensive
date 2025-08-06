@@ -1,5 +1,7 @@
 package cellAutomata;
 
+//this is just a set up of the class
+//no main function has been included but can be added to test functions
 public class proteinAssignment {
 
     private String dnaSeq;
