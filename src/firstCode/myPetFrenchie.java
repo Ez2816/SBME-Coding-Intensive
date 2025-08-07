@@ -1,6 +1,5 @@
-package firstcode;
+package firstCode;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.ArrayList;
 
 public class myPetFrenchie extends myPetDog{

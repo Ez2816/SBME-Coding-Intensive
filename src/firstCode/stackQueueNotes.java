@@ -1,4 +1,4 @@
-package firstcode;
+package firstCode;
 
 public class stackQueueNotes {
 

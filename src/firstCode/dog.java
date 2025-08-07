@@ -1,4 +1,4 @@
-package firstcode;
+package firstCode;
 
 
 //blueprints that define functionality but doesnt implement it

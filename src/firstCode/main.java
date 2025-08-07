@@ -1,4 +1,4 @@
-package firstcode;
+package firstCode;
 
 class main { //the name for class must match file
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package firstcode;
+package firstCode;
 
 public class myPetDog implements dog{
 // instance variables following: similar to global variables but scope only within this class

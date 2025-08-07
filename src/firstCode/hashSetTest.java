@@ -1,4 +1,4 @@
-package firstcode;
+package firstCode;
 import java.util.HashSet;
 
 public class hashSetTest {
