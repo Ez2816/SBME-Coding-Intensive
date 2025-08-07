@@ -1,0 +1,62 @@
+JAVA
+
+class Main {
+    public static void main(String[] args) {
+        int[] foo = {0,1,2,3,4};
+        int[] bar = new int[100];
+        
+        for (int i = 0; i<100; i++){
+            bar[i] = i;
+        }
+        
+        int fooNum = evenCount(foo, 5);
+        int barNum = evenCount(bar, 100);
+        
+        System.out.println(fooNum);
+        System.out.println(barNum);
+        
+        
+    }
+    
+    public static int evenCount(int[] arr, int size){
+        int count = 0;
+        
+        for (int a = 0; a<size; a++){
+            if (arr[a]%2 == 0){
+                
+                count++;
+            }
+            
+        }
+        
+        return count;
+        
+    }
+}
+
+
+PYTHON
+
+foo = [0,1,2,3,4]
+bar = [0]*100
+
+
+for i in range (100):
+    bar[i]=i
+    
+
+    
+def evenCount(array):
+    count = 0
+    for x in array:
+        if (x%2) == 0:
+            count=count+1
+            
+    return count
+    
+n1 = evenCount(foo)
+n2 = evenCount(bar)
+
+print(n1,n2)
+    
+    

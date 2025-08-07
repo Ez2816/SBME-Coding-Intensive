@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 //this is just a set up of the class
 //no main function has been included but can be added to test functions
-public class liverCell {
+public class cell {
 
     //instance vars - private
 
@@ -15,7 +15,7 @@ public class liverCell {
 
     //constructor
 
-    public liverCell(int strength, int x, int y, int id) {
+    public cell(int strength, int x, int y, int id) {
         this.strength = strength;
         this.x = x;
         this.y = y;
@@ -24,7 +24,7 @@ public class liverCell {
 
     //constructor with default setting
 
-    public liverCell(){
+    public cell(){
         this(0,0,0,0);
     }
 
@@ -80,7 +80,7 @@ public class liverCell {
 
     //method interactNeighbor
 
-    public void interactNeighbor(ArrayList<liverCellUpdated> neighbors){
+    public void interactNeighbor(ArrayList<cellUpdated> neighbors){
 
     }
 }

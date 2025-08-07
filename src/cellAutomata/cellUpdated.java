@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.HashMap;
 
 
-public class liverCellUpdated {
+public class cellUpdated {
 
     //instance vars - private
 
@@ -20,7 +20,7 @@ public class liverCellUpdated {
 
     //constructor
 
-    public liverCellUpdated(int strength, int x, int y, int id) {
+    public cellUpdated(int strength, int x, int y, int id) {
         this.strength = strength;
         this.x = x;
         this.y = y;
@@ -40,7 +40,7 @@ public class liverCellUpdated {
 
     //constructor with default setting
 
-    public liverCellUpdated(){
+    public cellUpdated(){
         this(0,0,0,0);
     }
 
@@ -122,7 +122,7 @@ public class liverCellUpdated {
 
     //method interactNeighbor
 
-    public void interactNeighbor(ArrayList<liverCellUpdated> neighbors){
+    public void interactNeighbor(ArrayList<cellUpdated> neighbors){
 
     }
 }

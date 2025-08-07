@@ -1,11 +1,14 @@
 package firstcode;
 
-public class myPetDog {
+public class myPetDog implements dog{
 // instance variables following: similar to global variables but scope only within this class
 // public allows access of these variables from other classes
-    private String name;
-    private String breed;
-    private int age;
+    //private does not allow external changes
+    protected String name;
+    protected String breed;
+    protected int age;
+    //protected means that it is accessible through the super and sub classes
+    //private int age;
 //public means that these variables can be accessed in other classes like "main"
 
     //constructors - functions/methods that have the same name as the class
@@ -50,6 +53,10 @@ public class myPetDog {
 
     public void bark(){
         System.out.println("Woof!");
+    }
+
+    public void eat(){
+        System.out.println("Eating!");
     }
 
     public static void main (String[] args){
